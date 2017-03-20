@@ -9,3 +9,6 @@ function showDialog1(){
 function hideDialog1(){
 	$("#dialog1").yuerDialog("hide");
 }
+function showErroeDialog(){
+	$("#errorDialog").yuerMsgDialog("show","error","哈哈哈哈");
+}

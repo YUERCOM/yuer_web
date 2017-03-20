@@ -39,7 +39,19 @@ html, body{
 .yuer_body_top{
 	width:100%; height:60px; float:left; background:#45C8DC;
 }
-
+.yuer_body_top a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.yuer_body_top_user{
+	width:160px;height:60px;line-height:60px;float:right;font-size:14px;
+}
+.yuer_body_top_user_head{
+	width:16px;height:16px;vertical-align:middle;margin-top:-5px;margin-right:5px;
+}
+.yuer_body_top_user_loginout{
+	vertical-align:middle;margin-top:-5px;margin-right:5px;
+}
 /**body左边样式**/
 .yuer_body_left{
 	width:13%; height:90%; float:left; background:#394D6B;
@@ -116,4 +128,7 @@ html, body{
 }
 .yuer_button:hover{
 	background:#4C7DF5;border:1px solid #4C7DF5;
+}
+.yuer_msg_dialog{
+	max-width:250px;max-height:150px;min-width:250px;min-height:150px;background:#FFFFFF;display:none;z-index:1000;top:10px;position:absolute;border-radius: 10px;
 }
