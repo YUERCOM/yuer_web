@@ -17,6 +17,6 @@ function showInfoDialog(){
 }
 function showConfirmDialog(){
 	$.dialog.confirm("哈哈啊哈哈哈哈哈哈哈啊啊啊啊啊时代发生的",function(){
-		alert("你点击确定了！");
+		$.dialog.info("你点击的确定按钮");
 	});
 }
