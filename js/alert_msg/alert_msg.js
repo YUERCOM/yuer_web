@@ -3,19 +3,20 @@ $(function(){
 });
 
 function showDialog1(){
-	$("#dialog1").yuerDialog("show");
+	$("#dialog1").dialogMsg("show");
 }
 
 function hideDialog1(){
-	$("#dialog1").yuerDialog("hide");
+	$("#dialog1").dialogMsg("hide");
 }
 function showErroeDialog(){
-	$("#errorDialog").yuerMsgDialog("show","error","哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈");
-	//$("#errorDialog").yuerMsgDialog("show","error","123456789012345678901234567890");
+	$.dialog.error("哈哈啊哈哈哈哈哈哈哈啊啊啊啊啊时代发生的");
 }
 function showInfoDialog(){
-	$("#errorDialog").yuerMsgDialog("show","info","哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈");
+	$.dialog.info("哈哈啊哈哈哈哈哈哈哈啊啊啊啊啊时代发生的");
 }
 function showConfirmDialog(){
-	$("#errorDialog").yuerMsgDialog("show","confirm","哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈");
+	$.dialog.confirm("哈哈啊哈哈哈哈哈哈哈啊啊啊啊啊时代发生的",function(){
+		alert("你点击确定了！");
+	});
 }

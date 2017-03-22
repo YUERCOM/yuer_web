@@ -1,0 +1,134 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/**菜单滚动条**/
+.yuer_body_left_scrollbar::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); border-radius: 6px; background-color: #344763;
+}
+.yuer_body_left_scrollbar::-webkit-scrollbar{
+	width: 6px; background-color: #394D6B;
+}
+.yuer_body_left_scrollbar::-webkit-scrollbar-thumb{
+	border-radius: 6px; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); background-color: #272822;
+}
+.yuer_body_left_scrollbar{
+	border-top:none; margin:0 auto; width:10%; height:90%; background:#394D6B; overflow-y:auto;
+}
+/**菜单滚动条**/
+
+/**iframe  的body中的div滚动条**/
+.yuer_iframe_body_div_scrollbar::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); border-radius: 6px; background-color: #23241E;
+}
+.yuer_iframe_body_div_scrollbar::-webkit-scrollbar{
+	width: 6px; background-color: #E3E6EC;
+}
+.yuer_iframe_body_div_scrollbar::-webkit-scrollbar-thumb{
+	border-radius: 6px; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); background-color: #45C8DC;
+}
+.yuer_iframe_body_div_scrollbar{
+	overflow-y:auto; border-top:none; background: #E3E6EC;
+}
+/**iframe  的body中的div滚动条**/
+
+/**body头部样式**/
+.yuer_body_top{
+	width:100%; height:60px; float:left; background:#45C8DC;
+}
+.yuer_body_top a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.yuer_body_top_user{
+	width:160px;height:60px;line-height:60px;float:right;font-size:14px;
+}
+.yuer_body_top_user_head{
+	width:16px;height:16px;vertical-align:middle;margin-top:-5px;margin-right:5px;
+}
+.yuer_body_top_user_loginout{
+	vertical-align:middle;margin-top:-5px;margin-right:5px;
+}
+/**body左边样式**/
+.yuer_body_left{
+	width:13%; height:90%; float:left; background:#394D6B;
+}
+
+/**body右边样式**/
+.yuer_body_right{
+	width:87%; height:85%; float:left; background:#E3E6EC;
+}
+
+/**body下边样式**/
+.yuer_body_bottom{
+	width:87%; height:30px; float:left; font-size: 12px; text-align:center; line-height: 30px; color:#A4B4BB;
+}
+
+/**第一级菜单样式**/
+.yuer_first_menu{
+	width:90%; height:40px; line-height: 40px; padding-left:10%; cursor:pointer; float:left; color:#FFFFFF; background:#394D6B;
+}
+/**第一级菜单鼠标移入样式**/
+.yuer_first_menu:hover{
+	background: #171D25; border-left: 2px solid #39E3C7; width: 88%;
+}
+/**第二级菜单父DIV**/
+.yuer_childDiv{
+	display: none; width: 100%;
+}
+/**第二级菜单样式**/
+.yuer_second_menu{
+	width: 75%; height:30px; line-height: 30px; padding-left: 25%; cursor:pointer; float:left; color:#FFFFFF; background: #4B5F7D;
+}
+/**第二级菜单鼠标移入样式**/
+.yuer_second_menu:hover{
+	background: #171D25; border-left: 2px solid #39E3C7; width: 73%;
+}
+/**菜单被选中样式**/
+.yuer_select_menu{
+	background: #171D25;
+}
+/***yuer-1.0.min.css  以上代码为版本1.0代码***/
+
+.yuer_dialog{
+	max-width:1000px;max-height:530px;min-width:200px;min-height:150px;background:#E3E6EC;display:none;z-index:1000;top:10px;position:absolute;border-radius: 10px;
+}
+.yuer_dialog_top{
+	width:100%;height:40px;min-height:40px;max-height:40px;line-height:40px;text-align:center;background:#FFFFFF;border-radius:10px 10px 0px 0px;font-weight:bold;
+}
+.yuer_dialog_top_msg{
+	width: 80%;height:40px;min-height:40px;max-height:40px;line-height:40px;margin-left:40px;float: left;
+}
+.yuer_dialog_top_cancel{
+	width: 40px;height:40px;min-height:40px;max-height:40px;float: right;cursor: pointer;background-image: url("../images/cancel_off.png");
+}
+.yuer_dialog_top_cancel:hover{
+	cursor: pointer;background-image: url("../images/cancel_on.png");
+}
+.yuer_dialog_content::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); border-radius: 6px; background-color: #E3E6EC;
+}
+.yuer_dialog_content::-webkit-scrollbar{
+	width: 6px; background-color: #E3E6EC;
+}
+.yuer_dialog_content::-webkit-scrollbar-thumb{
+	border-radius: 6px; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); background-color: #45C8DC;
+}
+.yuer_dialog_content{
+	width:100%;background:#E3E6EC;overflow-y:auto;
+}
+.yuer_dialog_bottom{
+	width:100%;height:60px;min-height:60px;max-height:60px;line-height:60px;text-align:center;background:#FFFFFF;border-radius:0px 0px 10px 10px;margin-bottom: 0px;
+}
+.yuer_button{
+	height: 30px;min-width: 50px;border-radius: 5px;background:#45C8DC;border:none;cursor: pointer;color:#FFFFFF;
+}
+.yuer_button:hover{
+	background:#4C7DF5;border:1px solid #4C7DF5;
+}
+.yuer_msg_dialog{
+	max-width:250px;max-height:150px;min-width:250px;min-height:150px;background:#FFFFFF;display:none;z-index:1000;top:10px;position:absolute;border-radius: 10px;
+}
